@@ -10,9 +10,14 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+    @IBOutlet weak var labelForText: UILabel!
+    
+    var textInLabel: String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        labelForText.text = textInLabel ?? "Unknown"
         // Do any additional setup after loading the view.
     }
 
