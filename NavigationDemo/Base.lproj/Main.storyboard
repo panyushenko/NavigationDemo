@@ -57,7 +57,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="M1v-vf-5qZ" kind="show" identifier="several textField" id="eLN-Lc-bGl"/>
+                                    <segue destination="M1v-vf-5qZ" kind="show" identifier="Full Name" id="eLN-Lc-bGl"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2By-6W-FSk">
@@ -93,7 +93,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="First Page" id="Vjj-l6-1XP">
-                        <barButtonItem key="backBarButtonItem" title="Back" id="oUs-vr-17P"/>
+                        <barButtonItem key="backBarButtonItem" title=" " id="oUs-vr-17P"/>
                         <barButtonItem key="rightBarButtonItem" systemItem="done" id="6Mu-9v-yhX">
                             <connections>
                                 <action selector="dismissAction:" destination="BYZ-38-t0r" id="goa-np-M4c"/>

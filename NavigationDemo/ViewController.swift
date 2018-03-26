@@ -39,7 +39,7 @@ class ViewController: UIViewController {
             guard let vc = segue.destination as? SecondViewController else {return}
             vc.textInLabel = textField.text
             vc.navigationItem.title = segue.identifier
-        case "several textField":
+        case "Full Name":
             guard let vc = segue.destination as? ThirdViewController else {return}
             vc.textForFirstName = textFieldForFirstName.text
             vc.textForSecondName = textFieldForSecondName.text
