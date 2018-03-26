@@ -12,11 +12,15 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var slider: UISlider!
     @IBOutlet weak var textField: UITextField!
+    @IBOutlet weak var textFieldForFirstName: UITextField!
+    @IBOutlet weak var textFieldForSecondName: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         textField.delegate = self
+        textFieldForFirstName.delegate = self
+        textFieldForSecondName.delegate = self
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -34,6 +38,11 @@ class ViewController: UIViewController {
         case "textField":
             guard let vc = segue.destination as? SecondViewController else {return}
             vc.textInLabel = textField.text
+            vc.navigationItem.title = segue.identifier
+        case "several textField":
+            guard let vc = segue.destination as? ThirdViewController else {return}
+            vc.textForFirstName = textFieldForFirstName.text
+            vc.textForSecondName = textFieldForSecondName.text
             vc.navigationItem.title = segue.identifier
         default:
             break
