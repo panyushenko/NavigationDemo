@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--First Page-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NavigationDemo" customModuleProvider="target" sceneMemberID="viewController">
@@ -49,7 +49,13 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Vjj-l6-1XP"/>
+                    <navigationItem key="navigationItem" title="First Page" id="Vjj-l6-1XP">
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="6Mu-9v-yhX">
+                            <connections>
+                                <action selector="dismissAction:" destination="BYZ-38-t0r" id="goa-np-M4c"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="slider" destination="2ti-ol-9Ty" id="1Vv-Gu-VxE"/>
                         <outlet property="textField" destination="8nN-rN-qAh" id="GQu-Fh-wSk"/>

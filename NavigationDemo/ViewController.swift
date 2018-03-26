@@ -30,13 +30,19 @@ class ViewController: UIViewController {
         case "slider":
             guard let vc = segue.destination as? SecondViewController else {return}
             vc.textInLabel = "\(Int(slider.value * 100))"
+            vc.navigationItem.title = segue.identifier
         case "textField":
             guard let vc = segue.destination as? SecondViewController else {return}
             vc.textInLabel = textField.text
+            vc.navigationItem.title = segue.identifier
         default:
             break
         }
     }
+    @IBAction func dismissAction(_ sender: UIBarButtonItem) {
+        dismiss(animated: true, completion: nil)
+    }
+    
 }
 
 extension ViewController: UITextFieldDelegate {
