@@ -21,6 +21,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        labelForUITextView.numberOfLines = 5
         labelForUITextView.text = textTabBar ?? "Unknown"
         
         textField.delegate = self
