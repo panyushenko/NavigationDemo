@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NavigationDemo/ViewController.swift"
+            timestampString = "543884544.404053"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NavigationDemo.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "NavigationDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookair/Documents/git/NavigationDemo/NavigationDemo/ViewController.swift"
+                  timestampString = "543883773.354694"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "implicit closure #1 : @autoclosure () throws -&gt; Swift.String in NavigationDemo.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "NavigationDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookair/Documents/git/NavigationDemo/NavigationDemo/ViewController.swift"
+                  timestampString = "543883773.359082"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NavigationDemo/ViewController.swift"
+            timestampString = "543884544.404193"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NavigationDemo.ViewController.textTabBar.getter : Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "NavigationDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookair/Documents/git/NavigationDemo/NavigationDemo/ViewController.swift"
+                  timestampString = "543883773.382656"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NavigationDemo.ViewController.textTabBar.setter : Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "NavigationDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookair/Documents/git/NavigationDemo/NavigationDemo/ViewController.swift"
+                  timestampString = "543883773.386966"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "230">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NavigationDemo.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; NavigationDemo.ViewController"
+                  moduleName = "NavigationDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookair/Documents/git/NavigationDemo/NavigationDemo/ViewController.swift"
+                  timestampString = "543883773.391107"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "785">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NavigationDemo.ViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;NavigationDemo.ViewController&gt;"
+                  moduleName = "NavigationDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookair/Documents/git/NavigationDemo/NavigationDemo/ViewController.swift"
+                  timestampString = "543883773.396681"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "680">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NavigationDemo/ViewController.swift"
+            timestampString = "543884544.4043159"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

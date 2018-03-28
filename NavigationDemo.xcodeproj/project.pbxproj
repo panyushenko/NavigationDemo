@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0AAE404206AFD8B0030E17C /* FourthTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AAE403206AFD8B0030E17C /* FourthTabBarViewController.swift */; };
 		D0B8A90D2067D17B00681AC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B8A90C2067D17B00681AC5 /* AppDelegate.swift */; };
 		D0B8A90F2067D17B00681AC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B8A90E2067D17B00681AC5 /* ViewController.swift */; };
 		D0B8A9122067D17B00681AC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B8A9102067D17B00681AC5 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D0AAE403206AFD8B0030E17C /* FourthTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthTabBarViewController.swift; sourceTree = "<group>"; };
 		D0B8A9092067D17A00681AC5 /* NavigationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0B8A90C2067D17B00681AC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0B8A90E2067D17B00681AC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				D0B8A90E2067D17B00681AC5 /* ViewController.swift */,
 				D0D148DF20683CB600CA85EA /* SecondViewController.swift */,
 				D0D148E320695CC800CA85EA /* ThirdViewController.swift */,
+				D0AAE403206AFD8B0030E17C /* FourthTabBarViewController.swift */,
 				D0B8A9102067D17B00681AC5 /* Main.storyboard */,
 				D0D148E12069581C00CA85EA /* Main2.storyboard */,
 				D0B8A9132067D17B00681AC5 /* Assets.xcassets */,
@@ -149,6 +152,7 @@
 				D0D148E020683CB600CA85EA /* SecondViewController.swift in Sources */,
 				D0B8A90F2067D17B00681AC5 /* ViewController.swift in Sources */,
 				D0D148E420695CC800CA85EA /* ThirdViewController.swift in Sources */,
+				D0AAE404206AFD8B0030E17C /* FourthTabBarViewController.swift in Sources */,
 				D0B8A90D2067D17B00681AC5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

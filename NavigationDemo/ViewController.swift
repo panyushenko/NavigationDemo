@@ -14,9 +14,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var textFieldForFirstName: UITextField!
     @IBOutlet weak var textFieldForSecondName: UITextField!
+    @IBOutlet weak var labelForUITextView: UILabel!
+    
+    var textTabBar: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        labelForUITextView.text = textTabBar ?? "Unknown"
         
         textField.delegate = self
         textFieldForFirstName.delegate = self

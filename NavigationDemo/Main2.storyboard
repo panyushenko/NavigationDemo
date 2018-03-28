@@ -51,21 +51,49 @@
             </objects>
             <point key="canvasLocation" x="1498" y="1235"/>
         </scene>
-        <!--View Controller-->
+        <!--Fourth Tab Bar View Controller-->
         <scene sceneID="LsO-7W-DgY">
             <objects>
-                <viewController id="l4u-oh-Aus" sceneMemberID="viewController">
+                <viewController id="l4u-oh-Aus" customClass="FourthTabBarViewController" customModule="NavigationDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hQO-wl-fLJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Ones Upon a time:" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="AGT-lN-FBX">
+                                <rect key="frame" x="67" y="40" width="240" height="307"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" keyboardType="webSearch" keyboardAppearance="alert"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WBB-ip-nxJ">
+                                <rect key="frame" x="164" y="355" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="LJO-lL-CNs" kind="presentation" identifier="textView" id="IB7-i8-Ftg"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="pfw-o5-YcC"/>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="search" id="ghD-rc-hi7"/>
+                    <connections>
+                        <outlet property="tabBarTextView" destination="AGT-lN-FBX" id="xWJ-P8-s75"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X7B-aE-4uo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="593" y="523"/>
+            <point key="canvasLocation" x="592.79999999999995" y="522.18890554722645"/>
+        </scene>
+        <!--Main-->
+        <scene sceneID="n7u-1Q-eVe">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" id="LJO-lL-CNs" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jZY-8b-2mk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1272" y="522"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="G6a-R1-Orc">
