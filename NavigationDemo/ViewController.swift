@@ -24,6 +24,8 @@ class ViewController: UIViewController {
         labelForUITextView.numberOfLines = 5
         labelForUITextView.text = textTabBar ?? "Unknown"
         
+        //UserDefaults.standard.set(, forKey: "MyColor") //для хранения значения не требущего создания базы данных CoreData
+        
         textField.delegate = self
         textFieldForFirstName.delegate = self
         textFieldForSecondName.delegate = self
